@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="MercuryApp(failed)">
+    <classes>
+      <class name="com.mercury.testApp.flightFinderTest">
+        <methods>
+          <include name="findFlightsTest" invocation-numbers="1 4 5 6 7 8 9 10 11 12 13"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.mercury.testApp.flightFinderTest -->
+    </classes>
+  </test> <!-- MercuryApp(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="MercuryApp">
+    <classes>
+      <class name="com.mercury.testApp.BookFlightTest"/>
+      <class name="com.mercury.testApp.FlightConfirmationtest"/>
+      <class name="com.mercury.testApp.LoginTest"/>
+      <class name="com.mercury.testApp.flightFinderTest"/>
+      <class name="com.mercury.testApp.SelectFlightTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
